@@ -17,6 +17,8 @@ src/woupgrade/script/update_growth.py # CLI/workflow orchestration
 doc/AI_AGENT_CONTEXT.md               # handoff notes for future AI agents
 doc/DATA_CONTRACT.md                  # JSON schema and scoring rules
 doc/PACKAGE_MAP.md                    # file/layer responsibilities
+doc/assets/example_update_growth_2026.png
+                                      # committed example plot
 ref/                                  # local raw PDFs, ignored by git
 temp/                                 # generated plots/CSVs, ignored by git
 ```
@@ -60,6 +62,21 @@ cd /Users/zhxutong/dr-wo/woUpgrade
 
 The script prints final cumulative scores, saves a PNG trend plot, and writes an
 optional CSV summary.
+
+## Example Output
+
+The committed example below was generated from the current
+`updates_2026.json` and `rubric.json`:
+
+```bash
+cd /Users/zhxutong/dr-wo/woUpgrade
+/Users/zhxutong/dr-wo/woStrategy/.venv/bin/python \
+  src/woupgrade/script/update_growth.py \
+  --output doc/assets/example_update_growth_2026.png \
+  --summary-output temp/update_growth_2026.csv
+```
+
+![2026 car update growth example](doc/assets/example_update_growth_2026.png)
 
 ## How It Works
 
@@ -152,4 +169,3 @@ Important cautions:
 - Keep scoring changes in `rubric.json`.
 - Keep source update corrections in `updates_2026.json`.
 - Keep generated artifacts in `temp/`.
-# woUpgrade

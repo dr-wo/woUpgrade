@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Generated outputs and local matplotlib cache.
+temp/
+
+# Raw FIA presentation PDFs are manually downloaded reference artifacts.
+# Keep the extracted JSON data in src/woupgrade/data/ under version control.
+ref/*
+!ref/.gitkeep

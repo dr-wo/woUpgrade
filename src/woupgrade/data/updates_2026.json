@@ -1,0 +1,315 @@
+{
+  "year": 2026,
+  "source_note": "Best-effort manual extraction from PDFs in woUpgrade/ref. Items marked guessed=true need review against the source presentation.",
+  "grand_prix_order": [
+    {
+      "round": 1,
+      "name": "Australian Grand Prix",
+      "short_name": "Australia",
+      "source_pdf": "ref/2026 Australian Grand Prix - Car Presentation Submissions.pdf"
+    },
+    {
+      "round": 2,
+      "name": "Chinese Grand Prix",
+      "short_name": "China",
+      "source_pdf": "ref/2026 Chinese Grand Prix - Car Presentation Submissions.pdf"
+    },
+    {
+      "round": 3,
+      "name": "Japanese Grand Prix",
+      "short_name": "Japan",
+      "source_pdf": "ref/2026 Japanese Grand Prix - Car Presentation Submissions.pdf"
+    },
+    {
+      "round": 4,
+      "name": "Miami Grand Prix",
+      "short_name": "Miami",
+      "source_pdf": "ref/2026 Miami Grand Prix - Car Presentation Submissions.pdf"
+    },
+    {
+      "round": 5,
+      "name": "Canadian Grand Prix",
+      "short_name": "Canada",
+      "source_pdf": "ref/2026 Canadian Grand Prix - Car Presentation Submissions.pdf"
+    }
+  ],
+  "updates": [
+    {
+      "round": 1,
+      "grand_prix": "Australian Grand Prix",
+      "teams": {
+        "McLaren": [
+          {"component": "floor_body", "description": "Revised floor geometry.", "guessed": false},
+          {"component": "rear_suspension", "description": "Updated rear suspension fairing.", "guessed": false},
+          {"component": "rear_wing", "description": "New rear wing geometry.", "guessed": false}
+        ],
+        "Mercedes": [
+          {"component": "bodywork", "description": "More downwash bodywork and high inlet.", "guessed": false},
+          {"component": "front_wing", "description": "Increased camber and revised front wing loading.", "guessed": false},
+          {"component": "rear_wing", "description": "Increased rear wing camber.", "guessed": false}
+        ],
+        "Red Bull Racing": [
+          {"component": "front_wing", "description": "Revised front wing for 2026 regulations.", "guessed": false},
+          {"component": "nose", "description": "Revised nose profile and adjustment packaging.", "guessed": false},
+          {"component": "rear_wing", "description": "Revised rear wing for 2026 regulations.", "guessed": false}
+        ],
+        "Ferrari": [
+          {"component": "front_wing", "description": "Longer chord front wing with SM integration.", "guessed": false},
+          {"component": "diffuser", "description": "Reduced floor dimensions and simplified underbody.", "guessed": false},
+          {"component": "rear_wing", "description": "Three-element active rear wing.", "guessed": false}
+        ],
+        "Racing Bulls": [
+          {"component": "floor_body", "description": "Updated keel, floor leading edge devices, and rear floor.", "guessed": false},
+          {"component": "engine_cover", "description": "Reshaped top deck of the engine cover.", "guessed": false},
+          {"component": "cooling_louvres", "description": "Additional cooling louvre configurations.", "guessed": false},
+          {"component": "rear_corner", "description": "Updated rear corner winglets.", "guessed": false}
+        ],
+        "Aston Martin": [
+          {"component": "front_wing", "description": "Three-element narrow front wing.", "guessed": false},
+          {"component": "front_wing_endplate", "description": "Endplate with diveplane and outboard foot.", "guessed": false},
+          {"component": "nose", "description": "Higher separated nose with pylons.", "guessed": false},
+          {"component": "sidepod_inlet", "description": "High upward-facing sidepod inlet.", "guessed": false},
+          {"component": "engine_cover", "description": "Large undercut and sloping rear top deck.", "guessed": false},
+          {"component": "diffuser", "description": "Revised diffuser extension, winglet, and fence.", "guessed": true},
+          {"component": "rear_wing", "description": "Three-element active rear wing.", "guessed": false}
+        ],
+        "Alpine": [
+          {"component": "front_wing", "description": "Complete new front wing design.", "guessed": false},
+          {"component": "engine_cover", "description": "Complete new bodywork around the 2026 power unit.", "guessed": false},
+          {"component": "rear_wing", "description": "Complete new rear wing design.", "guessed": false}
+        ],
+        "Cadillac": [
+          {"component": "front_wing", "description": "Updated flap design with revised spanwise loading.", "guessed": false},
+          {"component": "front_wing_endplate", "description": "Updated endplate design with revised inboard detail.", "guessed": false},
+          {"component": "rear_wing", "description": "Updated rear wing flap loading.", "guessed": false}
+        ],
+        "Williams": [
+          {"component": "engine_cover", "description": "Engine cover update.", "guessed": false},
+          {"component": "floor_body", "description": "Floor update.", "guessed": false},
+          {"component": "rear_wing", "description": "Rear wing update.", "guessed": false},
+          {"component": "front_wing_endplate", "description": "Front wing endplate update.", "guessed": false}
+        ],
+        "Haas": [
+          {"component": "front_wing", "description": "Revised front wing layout for 2026 regulations.", "guessed": false},
+          {"component": "front_wing_endplate", "description": "Revised front wing endplate layout.", "guessed": false},
+          {"component": "floor_body", "description": "Revised floor body layout.", "guessed": false},
+          {"component": "floor_edge", "description": "Revised floor edge layout.", "guessed": false},
+          {"component": "diffuser", "description": "Revised diffuser geometry.", "guessed": false},
+          {"component": "rear_wing", "description": "Three-element upper rear wing configuration.", "guessed": false},
+          {"component": "beam_wing", "description": "Simplified lower beam wing element.", "guessed": false}
+        ],
+        "Audi": [
+          {"component": "front_wing", "description": "Separate SLM actuators for each side of the front wing flap.", "guessed": false},
+          {"component": "sidepod_inlet", "description": "Unique sidepod inlet geometry.", "guessed": false},
+          {"component": "sidepod_body", "description": "Down-wash sidepod body geometry.", "guessed": false}
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "grand_prix": "Chinese Grand Prix",
+      "teams": {
+        "Ferrari": [
+          {"component": "halo", "description": "Winglet added to the halo pillar.", "guessed": false}
+        ],
+        "Racing Bulls": [
+          {"component": "rear_corner", "description": "Brake duct winglet profile modification.", "guessed": false}
+        ],
+        "Haas": [
+          {"component": "rear_impact_structure", "guessed": false}
+        ],
+        "Audi": [
+          {"component": "front_wing", "description": "Updated front wing flap and end plate geometry.", "guessed": false},
+          {"component": "nose", "description": "Updated nose design.", "guessed": false}
+        ],
+        "Cadillac": [
+          {"component": "diffuser", "description": "Trailing edge detail changes on diffuser winglet cascade.", "guessed": false},
+          {"component": "mirror_stay", "description": "Small leading-edge mirror stay surface changes.", "guessed": false}
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "grand_prix": "Japanese Grand Prix",
+      "teams": {
+        "Red Bull Racing": [
+          {"component": "sidepod_inlet", "description": "Revised sidepod inlet.", "guessed": true},
+          {"component": "engine_cover", "description": "Surfaces adapted to meet the new sidepod inlet geometry.", "guessed": false},
+          {"component": "floor_body", "description": "Upper floor surface revised to meet sidepod geometry.", "guessed": false},
+          {"component": "rear_corner", "description": "Revised rear corner inlet and exit geometries.", "guessed": false}
+        ],
+        "Ferrari": [
+          {"component": "front_corner", "description": "Reduced front brake duct inboard exit area.", "guessed": false},
+          {"component": "floor_body", "description": "Revised front floor stay fairing profile.", "guessed": false}
+        ],
+        "Williams": [
+          {"component": "front_suspension", "description": "Front suspension structural update.", "guessed": true}
+        ],
+        "Aston Martin": [
+          {"component": "front_wing", "description": "Front wing load distribution update.", "guessed": false},
+          {"component": "front_wing_endplate", "description": "Raised outboard footplate edge.", "guessed": false},
+          {"component": "floor_body", "description": "Revised floor leading edge devices.", "guessed": false}
+        ],
+        "Alpine": [
+          {"component": "front_corner", "description": "Redesigned front deflector.", "guessed": false},
+          {"component": "rear_wing", "description": "SM pod fairing and reprofiled rear wing elements.", "guessed": false},
+          {"component": "rear_corner", "description": "Rear car flow-conditioning update.", "guessed": true}
+        ],
+        "Cadillac": [
+          {"component": "diffuser_fence", "description": "Lower edge detail change on diffuser fence.", "guessed": false},
+          {"component": "diffuser", "description": "Updated central diffuser trailing edge profile.", "guessed": false}
+        ],
+        "Haas": [
+          {"component": "front_wing", "description": "Simplified front wing SM actuation system.", "guessed": false}
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "grand_prix": "Miami Grand Prix",
+      "teams": {
+        "McLaren": [
+          {"component": "front_corner", "description": "Revised front corner furniture.", "guessed": false},
+          {"component": "engine_cover", "description": "Modified bodywork furniture.", "guessed": false},
+          {"component": "sidepod_inlet", "description": "Revised sidepod inlet.", "guessed": false},
+          {"component": "cooling_louvres", "description": "Sidepod louvre option.", "guessed": false},
+          {"component": "floor_body", "description": "New floor and board geometry.", "guessed": false},
+          {"component": "rear_corner", "description": "Revised rear corner furniture.", "guessed": false},
+          {"component": "rear_wing", "description": "New rear wing and endplate geometry.", "guessed": false}
+        ],
+        "Mercedes": [
+          {"component": "tailpipe", "description": "Repositioned tailpipe with new slotted bracket.", "guessed": false},
+          {"component": "front_corner", "description": "Increased front drum lip chord.", "guessed": false}
+        ],
+        "Red Bull Racing": [
+          {"component": "front_wing", "description": "Revised front wing element and endplate geometries.", "guessed": false},
+          {"component": "front_corner", "description": "Revised front wheel bodywork inboard surfaces.", "guessed": false},
+          {"component": "sidepod_inlet", "description": "Revised sidepod inlet for new floor and bodywork.", "guessed": false},
+          {"component": "engine_cover", "description": "Surfaces adapted to meet the new sidepod inlet geometry.", "guessed": false},
+          {"component": "floor_body", "description": "New floor extraction and sidepod integration.", "guessed": true},
+          {"component": "rear_corner", "description": "Revised wheel bodywork inboard geometry and suspension fairing.", "guessed": false},
+          {"component": "rear_wing", "description": "Revised wing attachments for straight-mode mechanism.", "guessed": false}
+        ],
+        "Ferrari": [
+          {"component": "front_wing", "description": "Front wing endplate update.", "guessed": true},
+          {"component": "front_corner", "description": "Front corner update.", "guessed": false},
+          {"component": "front_suspension", "description": "Reprofiled front suspension leg fairings.", "guessed": false},
+          {"component": "floor_body", "description": "Front floor geometry and device update.", "guessed": false},
+          {"component": "floor_edge", "description": "Floor edge update.", "guessed": false},
+          {"component": "diffuser", "description": "Diffuser fence, trailing edge, and shoulder detailing.", "guessed": false},
+          {"component": "rear_suspension", "description": "Rear trackrod fairing reprofiling.", "guessed": false},
+          {"component": "beam_wing", "description": "Updated inboard connection.", "guessed": false},
+          {"component": "tailpipe", "description": "Revised tail devices and profiles.", "guessed": false},
+          {"component": "rear_wing", "description": "Reworked pylon, mainplane, flap, and central bracket.", "guessed": false},
+          {"component": "rear_wing_endplate", "description": "Straight-mode shedding update.", "guessed": true}
+        ],
+        "Racing Bulls": [
+          {"component": "rear_corner", "description": "Brake duct furniture profile modification.", "guessed": false},
+          {"component": "rear_suspension", "description": "Rear suspension aero profile geometry changes.", "guessed": false},
+          {"component": "floor_edge", "description": "Floor edge update around tyre contact patch.", "guessed": true},
+          {"component": "rear_wing", "description": "New mainplane and flap aerofoil profiles.", "guessed": false},
+          {"component": "rear_wing_endplate", "description": "Endplate camber distribution changes.", "guessed": false},
+          {"component": "front_wing", "description": "Additional shorter-chord flap option.", "guessed": false}
+        ],
+        "Alpine": [
+          {"component": "front_corner", "description": "Revised front drum exit.", "guessed": false},
+          {"component": "nose_camera", "description": "Adjusted nose camera mounts.", "guessed": false},
+          {"component": "rear_suspension", "description": "Reprofiled rear suspension legs.", "guessed": false},
+          {"component": "rear_wing", "description": "Additional rear wing element.", "guessed": true},
+          {"component": "rear_impact_structure", "description": "Complete new rear wing assembly.", "guessed": false},
+          {"component": "rear_wing_endplate", "description": "Reprofiled endplate.", "guessed": false}
+        ],
+        "Cadillac": [
+          {"component": "front_wing_endplate", "description": "Updated end plate body and reprofiled footplate geometry.", "guessed": false},
+          {"component": "front_wing", "description": "Updated front wing flap profiles.", "guessed": false},
+          {"component": "mirror_stay", "description": "Mirror stay movement and profile change.", "guessed": false},
+          {"component": "floor_board", "description": "Reprofiled forward floor board with updated top edge and winglet details.", "guessed": false},
+          {"component": "floor_body", "description": "Local rear floor corner changes and top surface strake addition.", "guessed": false},
+          {"component": "diffuser", "description": "Reprofiled fences and updated diffuser shoulder.", "guessed": false},
+          {"component": "rear_suspension", "description": "Reprofiled rear suspension fairings.", "guessed": false},
+          {"component": "rear_corner", "description": "Updated deflector, rod stay, reprofiled lip, and rear vanes.", "guessed": false},
+          {"component": "tailpipe", "description": "Updated and repositioned exhaust tailpipe bracket.", "guessed": false}
+        ],
+        "Williams": [
+          {"component": "floor_body", "description": "Refined floor contours and local thickness changes.", "guessed": false},
+          {"component": "sidepod_body", "description": "Sidepod inlet lips and surfaces reshaped.", "guessed": false},
+          {"component": "engine_cover", "description": "Bodywork, engine cover, coke, and cooling exit update.", "guessed": false},
+          {"component": "mirror_stay", "description": "Mirror assembly reshaped and repositioned.", "guessed": false},
+          {"component": "tailpipe", "description": "New profiled tailpipe bracket.", "guessed": false},
+          {"component": "rear_suspension", "description": "Revised rear suspension fairing junctions and trailing edges.", "guessed": false},
+          {"component": "beam_wing", "description": "Rear brace wing fairing and cut-line update.", "guessed": false}
+        ],
+        "Haas": [
+          {"component": "diffuser", "description": "Device added on floor winglet.", "guessed": false}
+        ],
+        "Audi": [
+          {"component": "front_suspension", "description": "New front brake duct and suspension leg covers.", "guessed": false},
+          {"component": "floor_edge", "description": "New floor edge and diffuser shape including diffuser winglet.", "guessed": false},
+          {"component": "diffuser", "guessed": false}
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "grand_prix": "Canadian Grand Prix",
+      "teams": {
+        "McLaren": [
+          {"component": "front_wing", "description": "New front wing.", "guessed": false},
+          {"component": "bodywork", "description": "New bodywork cooling exits.", "guessed": false},
+          {"component": "cooling_louvres", "description": "Cooling louvre options.", "guessed": false},
+          {"component": "halo", "description": "Halo winglet.", "guessed": false},
+          {"component": "rear_wing_endplate", "description": "Revised rear wing endplate.", "guessed": false},
+          {"component": "rear_suspension", "description": "Revised rear suspension fairings.", "guessed": false},
+          {"component": "floor_edge", "description": "Revised floor edge devices.", "guessed": false}
+        ],
+        "Mercedes": [
+          {"component": "front_wing", "description": "Front wing update.", "guessed": true},
+          {"component": "front_wing_endplate", "description": "Footplate stakes update.", "guessed": true},
+          {"component": "front_corner", "description": "Reduced front caketin upper lip camber.", "guessed": false},
+          {"component": "floor_board", "description": "Reprofiled floor board elements.", "guessed": false},
+          {"component": "floor_corner", "description": "Additional floor corner slots.", "guessed": false},
+          {"component": "diffuser", "description": "Reprofiled diffuser roof.", "guessed": false},
+          {"component": "rear_corner", "description": "Rear winglet span and position redistribution.", "guessed": false}
+        ],
+        "Red Bull Racing": [
+          {"component": "front_wing", "description": "Revised front wing flap elements.", "guessed": false},
+          {"component": "front_corner", "description": "Revised brake duct exit geometry.", "guessed": false},
+          {"component": "floor_board", "description": "Bib edge trim and revised forward floor devices.", "guessed": false},
+          {"component": "cooling_louvres", "description": "Cooling exit panel option.", "guessed": false}
+        ],
+        "Williams": [
+          {"component": "front_corner", "description": "Front corner update.", "guessed": true},
+          {"component": "front_suspension", "description": "Revised suspension cladding surfaces.", "guessed": false},
+          {"component": "tailpipe", "description": "Repositioned exhaust tailpipe system.", "guessed": true}
+        ],
+        "Racing Bulls": [
+          {"component": "floor_body", "description": "New main floor geometry.", "guessed": false},
+          {"component": "rear_corner", "description": "Reprofiled rear corner devices.", "guessed": false},
+          {"component": "beam_wing", "description": "Profile and incidence modifications.", "guessed": false},
+          {"component": "tailpipe", "description": "Reprofiled tailpipe bracket.", "guessed": false}
+        ],
+        "Alpine": [
+          {"component": "floor_body", "description": "New floor and board geometry.", "guessed": false},
+          {"component": "rear_wing", "description": "Modified rear wing geometry.", "guessed": false}
+        ],
+        "Cadillac": [
+          {"component": "front_corner", "description": "Updated front brake duct lip, internals, and exit geometry.", "guessed": false},
+          {"component": "diffuser", "description": "Revised diffuser winglet trim and hanger detail.", "guessed": false}
+        ],
+        "Haas": [
+          {"component": "sidepod_inlet", "description": "Revised sidepod inlet.", "guessed": false},
+          {"component": "engine_cover", "description": "Undercut and top downwash engine cover update.", "guessed": false},
+          {"component": "floor_body", "description": "Raised floor geometry with new floor board and edge splits.", "guessed": false},
+          {"component": "rear_suspension", "description": "Optimized rear suspension fairing design.", "guessed": false},
+          {"component": "rear_corner", "description": "Revised winglet geometry on inboard drum face.", "guessed": false}
+        ],
+        "Audi": [
+          {"component": "front_corner", "description": "New front brake duct design.", "guessed": false},
+          {"component": "diffuser", "description": "Updated diffuser.", "guessed": false},
+          {"component": "cooling_louvres", "description": "New sidepod louvres.", "guessed": false},
+          {"component": "rear_corner", "description": "New rear brake duct design.", "guessed": false}
+        ]
+      }
+    }
+  ]
+}
